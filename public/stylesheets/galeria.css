@@ -1,0 +1,33 @@
+section.populares{
+    display:flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    div.juegos{
+        display:flex;
+        flex-direction: row;
+
+        div.individual{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+
+            display:flex;
+            justify-content: left;
+            align-items: flex-end;
+            transition: 0.3s;
+
+            h4{
+                margin-left:10px;
+                margin-bottom:10px;
+                background-color: gray;
+            }
+
+            &:hover{
+                transform: rotate(10deg);
+            }
+        }
+    }
+}
